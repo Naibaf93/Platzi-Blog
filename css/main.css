@@ -80,3 +80,29 @@ nav .profile-link a {
     border-bottom: 1px solid black;
     font-size: 2rem;
 }
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('/Desing/cover_909cd27f-8eb3-4e9a-9cae-c5549009f6b5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home-main-text {
+    font-size: 3rem;
+    font-weight: 70rem;
+    letter-spacing: 1rem;
+    color: white;
+    text-align: center;
+}
