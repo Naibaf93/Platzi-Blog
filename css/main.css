@@ -140,6 +140,11 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
+    padding: 20px;
+}
+
+.blogs-main-new h3 {
+    font-size: 2.5rem;
 }
 
 .blogs-news-img-container {
@@ -154,8 +159,13 @@ nav .profile-link a {
     grid-column: 2;
 }
 
+.blogs-news-info-container h2 {
+    font-size: 2rem;
+}
+
 .blogs-news-info-container p {
     margin-bottom: 35px;
+    font-size: 1.7rem;
 }
 
 .blogs-posts-container {
@@ -166,4 +176,13 @@ nav .profile-link a {
     border-bottom: 1px solid #cdd2da;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.blogs-button {
+    border: 1px solid #001C30;
+    background-color: #001C30;
+    color: white;
+    padding: 10px;
+    font-size: 1.4rem;
+    border-radius: 5px;
 }
