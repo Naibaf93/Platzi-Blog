@@ -172,9 +172,15 @@ nav .profile-link a {
     padding: 0 50px 40px;
 }
 
-.blogs-posts-container h3 {
-    border-bottom: 1px solid #cdd2da;
-    padding-bottom: 20px;
+.latest-posts {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 3.2rem;
+    padding-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -185,6 +191,62 @@ nav .profile-link a {
     padding: 10px;
     font-size: 1.4rem;
     border-radius: 5px;
+}
+
+.latest-posts__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* cards */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
+}
+
+.post-category {
+    color: #47cfac;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 395px;
+    overflow: hidden;
+}
+
+.card__title {
+    font-size: 2rem;
+    line-height: .9;
+    margin-bottom: 10px;
+}
+
+.card_date {
+    font-size: 1.4rem;
+    color: #999999;
+}
+
+.card__description {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.4rem;
 }
 
 footer {
