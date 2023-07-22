@@ -59,6 +59,9 @@ header .icons span {
     color: white;
 }
 
+header .icons span:hover {
+    color: #47cfac;
+}
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -76,15 +79,25 @@ nav .nav-logo-container img {
 
 nav .profile-link {
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
 }
 
 nav .profile-link a {
-    color: black;
-    border-bottom: 1px solid black;
-    font-size: 2rem;
+    width: 100px;
+    padding: 8px;
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #001C30;
+    border-radius: 5px;
+}
+
+nav .profile-link a:hover {
+    background-color: rgb(0, 28, 48, 0.9);
 }
 
 .home-main {
@@ -144,7 +157,7 @@ nav .profile-link a {
 }
 
 .blogs-main-new h3 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .blogs-news-img-container {
@@ -160,12 +173,13 @@ nav .profile-link a {
 }
 
 .blogs-news-info-container h2 {
-    font-size: 2rem;
+    margin-top: 50px;
+    font-size: 3rem;
 }
 
 .blogs-news-info-container p {
     margin-bottom: 35px;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .blogs-posts-container {
@@ -189,8 +203,12 @@ nav .profile-link a {
     background-color: #001C30;
     color: white;
     padding: 10px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     border-radius: 5px;
+}
+
+.blogs-button:hover {
+    background-color: rgb(0, 28, 48, 0.9);
 }
 
 .latest-posts__container {
