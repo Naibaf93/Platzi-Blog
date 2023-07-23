@@ -104,7 +104,7 @@ nav .profile-link a:hover {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url('/Desing/cover_909cd27f-8eb3-4e9a-9cae-c5549009f6b5.png');
+    background-image: url('../assets/img/background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
