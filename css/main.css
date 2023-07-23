@@ -478,6 +478,10 @@ footer a:hover {
         display: flex;
         flex-direction: column;
     }
+
+    .header__profile {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -510,6 +514,15 @@ footer a:hover {
     nav .nav-logo-container {
         margin-left: 10px;
     }
+
+    .blogs-news-img-container {
+        padding-top: 30px;
+    }
+
+    .blogs-news-img-container img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -528,4 +541,32 @@ footer a:hover {
         gap: 50px;
         padding-bottom: 30px;
     }
+
+    .blogs-news-container h2 {
+        font-size: 1.6rem;
+        margin-top: 30px;
+    }
+
+    .blogs-news-container p {
+        font-size: 1.4rem;
+    }
+
+    .profile__image {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header .header-icons-container .icons {
+        justify-self: center;
+        margin-right: 0;
+    }
+    .blogs-news-container h2 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .blogs-news-container p {
+        font-size: 1.3rem;
+    }   
 }
