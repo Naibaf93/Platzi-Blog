@@ -461,3 +461,71 @@ footer a {
 footer a:hover {
     color: #64CCC5;
 }
+
+
+@media screen and (max-width: 1289px) {
+    .blogs-news-container h2 {
+        font-size: 2rem;
+    }
+
+    .blogs-news-container p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .blogs-main-new {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .contact-info div {
+        height: auto;
+        width: 90%;
+    }
+    .contact-info .contact-left, .contact-right {
+        text-align: center;
+        align-items: center;
+        padding: 0 12px 0 0;
+    }
+}
+
+@media screen and (max-width: 530px) {
+   nav .profile-link {
+    margin-right: 0;
+    padding-right: 30px;
+   }
+}
+
+@media screen and (max-width: 510px) {
+    nav .nav-logo-container {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    header {
+        height: 200px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .profile-link {
+        gap: 50px;
+        padding-bottom: 30px;
+    }
+}
